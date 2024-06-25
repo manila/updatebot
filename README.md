@@ -203,5 +203,5 @@ Regardless of which cloud provider is used I would suggest using Terraform to sp
 ## Further Considerations
 
 - The bot code should include error handling and support for rate limiting before running in prod.
-- You can add support for virtually any application or even things like locally install python packages or chrome extensions, the sky's the limit.
+- You can add support for virtually any application or even things like locally installed python packages or chrome extensions, the sky's the limit.
 - The bot is stateless, this makes it easy to run but it would make it tough or impossible to implement features like snoozing notifications or allowing the user to configure additional reminders.
