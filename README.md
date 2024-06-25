@@ -1,6 +1,6 @@
 # RFC Software Update Reminder SlackBot
 
-A slackbot to help remind folks when their computers (and/or software like Chrome) is out of date.
+A slackbot to help remind folks when their computers (and/or software like Chrome) are out of date.
 
 The goal is to decrease the time it takes folks to acknowledge and install software updates by increasing the visibility of updates through a slackbot that sends direct messages ideally in a digest format. Results can be measured by the average time-to-install (TTI) when a new update is released.
 
