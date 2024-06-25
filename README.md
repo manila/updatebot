@@ -102,7 +102,9 @@ You should see a result similar to the following:
 
 This component offers centralized reporting by running remote queries on hosts with Osquery installed.
 
-This is probably the most complex component and would most likely need to be broken out into its own epic, however there is great documentation on how to spin this up in AWS using Terraform (https://fleetdm.com/docs/deploy/deploy-fleet#aws) and if that feels like too much work to maintain in the long run they offer a hosted version (https://fleetdm.com/pricing). Ideally we would use Gitops to maintain the deployment using a CI/CD tool like github actions to keep the deployment up to date, this would be especially easy as they provide the Terraform code in the docs.
+This is probably the most complex component and would most likely need to be broken out into its own epic, however there is great documentation on how to spin this up in AWS using Terraform (https://fleetdm.com/docs/deploy/deploy-fleet#aws) and if that feels like too much work to maintain in the long run they offer a hosted version (https://fleetdm.com/pricing). 
+
+Ideally we would use Gitops to maintain the deployment using a CI/CD tool like github actions to keep the deployment up to date, this would be especially easy as they provide the Terraform code in the docs.
 
 
 ## The SlackBot
