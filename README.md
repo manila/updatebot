@@ -195,7 +195,9 @@ if __name__ == "__main__":
 
 ## Packaging and Deployment
 
-The bot itself can be deployed to AWS Lambda, using Cloud Watch to schedule triggers to run. Or on GCP this can run as a Cloud Function using Google Cloud Scheduler to achieve the same results. This could also be packaged in a Docker container and run in AWS ECS. Regardless of which cloud provider is used I would suggest using Terraform to spin up that infrastructure and deploy the bot as part of a CI/CD workflow. This can be achieved easily and quickly using GitHub Actions.
+The bot itself can be deployed to AWS Lambda, using Cloud Watch to schedule triggers to run. Or on GCP this can run as a Cloud Function using Google Cloud Scheduler to achieve the same results. This could also be packaged in a Docker container and run in AWS ECS. 
+
+Regardless of which cloud provider is used I would suggest using Terraform to spin up that infrastructure and deploy the bot as part of a CI/CD workflow. This can be achieved easily and quickly using GitHub Actions.
 
 
 ## Further Considerations
